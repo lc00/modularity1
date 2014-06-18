@@ -1,0 +1,26 @@
+/* ADD YOUR STYLES HERE */
+
+#table1{
+	width:100%;
+	margin-left:25px;
+	
+}
+
+.table1-table-row td{
+	/*padding: 10px;*/
+	/*border-bottom:1px solid #C0C0C0;*/
+}
+
+.column2 {
+	padding-left:56px;
+	position:absolute;
+}
+
+.column3 {
+	padding-left:228px;
+
+}
+
+.column4 {
+	padding-right:117px;
+}
