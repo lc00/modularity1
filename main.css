@@ -1,5 +1,5 @@
 /* ADD YOUR STYLES HERE */
-
+/* 1. Data Table */
 #table1{
 	width:100%;
 	margin-left:25px;
@@ -7,30 +7,16 @@
 }
 
 .table1-table-row td{
-	padding-bottom: 5px;
-	padding-top: 5px;
+	padding: 5px;
 	border-bottom:1px solid #C0C0C0;
 }
 
 .table1-table-row:last-child td{
 	border-bottom:none;
 }
+/
 
-.column2 {
-	padding-left:56px;
-	position:absolute;
-}
-
-.column3 {
-	padding-left:228px;
-
-}
-
-.column4 {
-	padding-right:117px;
-}
-
-
+/* 2. Stats*/
 .instruction-text{
 	margin-left:9px;
 }
@@ -80,4 +66,37 @@
 	font-size: 13px;
 	color:#C0C0C0;
 	padding-right: 10px;
+}
+
+
+/* 3. Bar Chart*/
+#bar-chart th{
+	border-bottom: hidden;
+	text-align: right;
+	margin-left: 2%;
+	width:200px;
+
+}
+#bar-chart div{
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: cornflowerblue;
+	height:26px;
+
+
+}
+#bar-chart td{
+	/*width: 100%;*/
+	padding-left: 3%;
+}
+
+#bar-chart {
+	width: 100%;
+}
+
+/* 4. Lightbox*/
+
+#light-box{
+	background-color: dimgray;
+	padding: 10%;
 }
