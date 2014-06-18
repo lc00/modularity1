@@ -7,8 +7,13 @@
 }
 
 .table1-table-row td{
-	/*padding: 10px;*/
-	/*border-bottom:1px solid #C0C0C0;*/
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-bottom:1px solid #C0C0C0;
+}
+
+.table1-table-row:last-child td{
+	border-bottom:none;
 }
 
 .column2 {
@@ -23,4 +28,56 @@
 
 .column4 {
 	padding-right:117px;
+}
+
+
+.instruction-text{
+	margin-left:9px;
+}
+
+#table2{
+	width:100%;
+	margin-left: 21px;
+}
+
+#table2 td, th{
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom: 1px solid #C0C0C0;
+
+}
+
+#table2 .table2-col2{
+	padding-left:51px;
+	position:absolute;
+}
+
+#table2 .table2-col3{
+	padding-left: 270px;
+}
+
+#table2 .table2-col4{
+	padding-right: 90px;
+}
+
+
+
+#table-stats{
+	width:250px;
+	margin-left:15px;
+}
+
+#table-stats td {
+	text-align: center;
+}
+
+#table-stats td div:first-child{
+	font-size:35px;
+	font-weight: bold;
+}
+
+#table-stats td div:last-child {
+	font-size: 13px;
+	color:#C0C0C0;
+	padding-right: 10px;
 }
