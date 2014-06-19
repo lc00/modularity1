@@ -82,7 +82,7 @@
 	border-top-right-radius: 5px;
 	background-color: cornflowerblue;
 	height:26px;
-
+925-926-7627
 
 }
 #bar-chart td{
@@ -115,4 +115,20 @@
 	background-color: pink;
 	border-radius: 5px;
 	margin:376px;
+}
+
+/* 5. Media Block */
+/*img{
+	float:left;
+	margin-right: 1%;
+	margin-bottom: 10px;
+}*/
+
+.media-object{
+	float:left;
+	margin-right: 1%;
+	margin-bottom: 10px;
+}
+.media-block{
+	overflow: hidden;
 }
